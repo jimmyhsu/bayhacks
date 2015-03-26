@@ -1,3 +1,33 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<header id="header">
+  <nav class="navbar navbar-default">
+    <div class="container">
 
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" id="logo-text"><span class="text-primary">Bay</span><span class="text-success">Hacks</span></a>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" placeholder="SF, Startup, etc" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Find a Hackathon!</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+</header>
 {{outlet}}
+<footer class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text navbar-left">Find me on <a href="https://github.com/jimmyhsu/bayhacks" class="navbar-link">Github</a></p>
+      <p class="navbar-text navbar-right">Hacked together by <a href="#" class="navbar-link">Jimmy Hsu</a></p>
+    </div>
+</footer>

@@ -1,0 +1,23 @@
+/* Logo Text */
+#logo-text {
+  font-size: 32px;
+}
+
+/* Scoot landing jumbotron up */
+#landing-jumbotron {
+  background: url("/assets/images/golden-gate-bg.jpg");
+  background-size: cover;
+
+  margin-top: -20px;
+
+  /* override top shadow and border */
+  border: none;
+
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Buttons: Remove the annoying blue outline */
+.btn {
+    outline: none !important;
+}

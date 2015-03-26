@@ -1,7 +1,7 @@
 # Bayhacks
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple, neat list of all the hackathons in the Bay Area.
+The main purpose of this was to learn/tinker with ember.js, ember-cli, and broccoli.
 
 ## Prerequisites
 

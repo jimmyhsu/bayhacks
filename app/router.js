@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('landing', { path: '/' });
+  this.resource('hackathons', { path: '/hackathons' });
 });
 
 export default Router;
