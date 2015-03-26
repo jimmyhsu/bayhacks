@@ -17,6 +17,14 @@
           box-shadow: none;
 }
 
+/* Larger on desktop screens */
+@media screen and (min-width: 992px) {
+  #landing-jumbotron {
+    padding: 150px 0;
+    height: 500px;
+  }
+}
+
 /* Buttons: Remove the annoying blue outline */
 .btn {
     outline: none !important;
