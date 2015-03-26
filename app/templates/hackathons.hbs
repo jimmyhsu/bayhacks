@@ -1,1 +1,19 @@
-<div class="well">Something here!</div>
+<section class="container">
+  {{#each hackathon in model}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title"><strong>{{hackathon.name}}</strong></h2>
+    </div>
+    <div class="panel-body">
+      {{hackathon.description}}
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item"><strong>Date &amp; Time:</strong> {{hackathon.date}}</li>
+      <li class="list-group-item"><strong>Address:</strong> {{hackathon.address}}</li>
+      <li class="list-group-item"><strong>Info Site:</strong> {{hackathon.site}}</li>
+      <li class="list-group-item"><strong>Signup:</strong> {{hackathon.signup}}</li>
+      {{!-- {{#link-to 'signup'}}{{signup}}{{/link-to}} --}}
+    </ul>
+  </div>
+  {{/each}}
+</section>

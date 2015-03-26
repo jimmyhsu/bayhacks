@@ -1,3 +1,10 @@
+
+/* Fixes for fixed navbar padding */
+body {
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
 /* Logo Text */
 #logo-text {
   font-size: 32px;
@@ -11,7 +18,7 @@
   margin-top: -20px;
 
   /* override top shadow and border */
-  border: none;
+  /*border: none;*/
 
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -24,7 +31,11 @@
     height: 500px;
   }
 }
-
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
 /* Buttons: Remove the annoying blue outline */
 .btn {
     outline: none !important;
